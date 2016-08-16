@@ -19,7 +19,7 @@
 		2975C5FD1D6393330069F515 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2975C5FC1D6393330069F515 /* video.mp4 */; };
 		2975C60E1D63B2940069F515 /* AMSloMoRangeSlider.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2975C60B1D63B2940069F515 /* AMSloMoRangeSlider.podspec */; };
 		2975C60F1D63B2940069F515 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2975C60C1D63B2940069F515 /* LICENSE */; };
-		2975C6101D63B2940069F515 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2975C60D1D63B2940069F515 /* README.md */; };
+		2975C6101D63B2940069F515 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2975C60D1D63B2940069F515 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2975C6101D63B2940069F515 /* README.md in Resources */,
 				2975C60F1D63B2940069F515 /* LICENSE in Resources */,
 				2975C5DD1D638CB90069F515 /* Launch.storyboard in Resources */,
 				2975C5DA1D638CB90069F515 /* Assets.xcassets in Resources */,
@@ -269,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2975C6101D63B2940069F515 /* README.md in Sources */,
 				2975C5D51D638CB90069F515 /* ViewController.swift in Sources */,
 				2975C5D31D638CB90069F515 /* AppDelegate.swift in Sources */,
 			);
