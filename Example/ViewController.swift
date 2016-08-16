@@ -1,25 +1,37 @@
 //
 //  ViewController.swift
-//  Example
+//  SloMoRangeSlider
 //
-//  Created by Amr Mohamed on 8/16/16.
+//  Created by Amr Mohamed on 7/7/16.
 //  Copyright © 2016 Amr Mohamed. All rights reserved.
 //
 
 import UIKit
+import AVFoundation
+import AMSloMoRangeSlider
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , AMSloMoRangeSliderDelegate {
 
+    @IBOutlet weak var sloMoRangeSlider: AMSloMoRangeSlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = NSBundle.mainBundle().URLForResource("video", withExtension: "mp4")
+        self.sloMoRangeSlider.videoAsset = AVAsset(URL: url!)
+        self.sloMoRangeSlider.delegate = self
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func slomoRangeSliderLowerThumbValueChanged() {
+        print(self.sloMoRangeSlider.startTime.seconds)
+    }
+    
+    func slomoRangeSliderUpperThumbValueChanged() {
+        print(self.sloMoRangeSlider.stopTime.seconds)
+    }
 }
-
