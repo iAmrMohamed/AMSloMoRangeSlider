@@ -145,9 +145,9 @@
 		2975C6041D63AA3D0069F515 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				2975C60B1D63B2940069F515 /* AMSloMoRangeSlider.podspec */,
 				2975C60C1D63B2940069F515 /* LICENSE */,
 				2975C60D1D63B2940069F515 /* README.md */,
+				2975C60B1D63B2940069F515 /* AMSloMoRangeSlider.podspec */,
 			);
 			name = Others;
 			path = Example;
