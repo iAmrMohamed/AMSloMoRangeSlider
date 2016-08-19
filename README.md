@@ -67,7 +67,7 @@ $ brew install carthage
 To integrate AMSloMoRangeSlider into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "iAmrMohamed/AMSloMoRangeSlider" "master"
+github "iAmrMohamed/AMSloMoRangeSlider"
 ```
 
 ## Requirements
